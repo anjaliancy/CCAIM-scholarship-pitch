@@ -13,9 +13,11 @@ html {
 }
 
 body {
-  background: #ffffff;
-  color: #000000;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+  /* Using your new Cream (#F5F5DC) and Deep Plum (#4A0E2E) */
+  background: #F5F5DC;
+  color: #4A0E2E;
+  /* Moved Helvetica to the front of the stack */
+  font-family: 'Helvetica', Arial, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
   line-height: 1.5;
   font-size: 15px;
   -webkit-font-smoothing: antialiased;
@@ -26,6 +28,7 @@ h1 {
   font-weight: 500;
   line-height: 1.3;
   letter-spacing: -0.5px;
+  color: #4A0E2E; /* Ensuring headers use the Plum theme */
 }
 
 h2 {
@@ -33,12 +36,14 @@ h2 {
   font-weight: 500;
   line-height: 1.3;
   letter-spacing: -0.3px;
+  color: #673147; /* Slightly different plum for visual hierarchy */
 }
 
 h3 {
   font-size: 18px;
   font-weight: 500;
   line-height: 1.4;
+  color: #833857; /* Dark Pink/Plum accent */
 }
 
 a {
@@ -47,25 +52,30 @@ a {
   text-decoration: none;
 }
 
+/* Optional: Add a hover state for links using Dark Pink */
+a:hover {
+  color: #AC4B74;
+}
+
 button {
   transition: all 0.2s ease;
 }
 
-/* Minimalist scrollbar */
+/* Custom Scrollbar styled for the Plum/Cream theme */
 ::-webkit-scrollbar {
   width: 8px;
   height: 8px;
 }
 
 ::-webkit-scrollbar-track {
-  background: transparent;
+  background: #F5F5DC; /* Matches the background */
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #d1d5db;
+  background: #D4A5B7; /* Dusty Pink for the scrollbar handle */
   border-radius: 4px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #9ca3af;
+  background: #AC4B74; /* Darker pink on hover */
 }
