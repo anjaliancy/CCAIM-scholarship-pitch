@@ -126,7 +126,7 @@ export default function Home() {
                 
                 <div className="flex flex-col md:flex-row md:justify-between md:items-baseline mb-4">
                   <h3 className="text-xl font-bold text-text">Data Science Lead – SkinAid Project</h3>
-                  <span className="text-sm font-medium italic text-text-tertiary">IMCAS World Congress, Paris | 2025-Current </span>
+                  <span className="text-sm font-medium italic text-text-tertiary"> SkinAid, Paris | 2025-Current </span>
                 </div>
                 <ul className="space-y-3 text-text-secondary text-base leading-relaxed">
                   <li className="flex gap-2">
