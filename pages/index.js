@@ -181,7 +181,7 @@ export default function Home() {
                 {
                   num: '1',
                   title: 'Immediate application',
-                  desc: 'I'll apply knowledge to active projects within weeks. Your curriculum directly scales to clinical impact.',
+                  desc: 'I will apply the knowledge to active projects within weeks. Your curriculum directly scales to clinical impact.',
                 },
                 {
                   num: '2',
