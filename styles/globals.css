@@ -13,17 +13,16 @@ html {
 }
 
 body {
-  /* Using your new Cream (#F5F5DC) and Deep Plum (#4A0E2E) */
-  background: #F5F5DC;
-  color: #4A0E2E;
-  /* Moved Helvetica to the front of the stack */
-  font-family: 'Helvetica', Arial, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
-  line-height: 1.5;
-  font-size: 15px;
+  background: #F5F5DC; /* Cream */
+  color: #4A0E2E;    /* Deep Plum */
+  font-family: 'EB Garamond', Garamond, Georgia, serif;
+  line-height: 1.6;  /* Garamond loves a bit more breathing room */
+  font-size: 17px;
   -webkit-font-smoothing: antialiased;
 }
 
 h1 {
+  font-family: 'EB Garamond', Garamond, serif;
   font-size: 32px;
   font-weight: 500;
   line-height: 1.3;
@@ -32,6 +31,7 @@ h1 {
 }
 
 h2 {
+  font-family: 'EB Garamond', Garamond, serif;
   font-size: 24px;
   font-weight: 500;
   line-height: 1.3;
@@ -40,6 +40,7 @@ h2 {
 }
 
 h3 {
+  font-family: 'EB Garamond', Garamond, serif;
   font-size: 18px;
   font-weight: 500;
   line-height: 1.4;
