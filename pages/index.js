@@ -88,9 +88,9 @@ export default function Home() {
             <h2 className="text-2xl font-bold mb-10">Current Work</h2>
             <div className="space-y-6">
               {[
-                { label: 'SkinAid NLP research', progress: 85 },
-                { label: 'Healthcare ML consulting', progress: 70 },
-                { label: 'Genomic data analysis', progress: 50 },
+                { label: 'SkinAid NLP research' },
+                { label: 'ML consulting in megaprojects domain'},
+                { label: 'Genomic data analysis'},
               ].map((item, i) => (
                 <div key={i}>
                   <div className="flex justify-between items-center mb-2">
