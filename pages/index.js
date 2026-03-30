@@ -82,29 +82,64 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Active Projects - Progress bars using Dark Pink */}
-        <section className="py-16 px-6 border-b border-border">
+{/* Professional Experience Section */}
+        <section id="work" className="py-20 px-6 border-b border-border">
           <div className="max-w-3xl mx-auto">
-            <h2 className="text-2xl font-bold mb-10">Current Work</h2>
-            <div className="space-y-6">
-              {[
-                { label: 'SkinAid NLP research' },
-                { label: 'ML consulting in megaprojects domain'},
-                { label: 'Genomic data analysis'},
-              ].map((item, i) => (
-                <div key={i}>
-                  <div className="flex justify-between items-center mb-2">
-                    <span className="text-sm font-bold text-text">{item.label}</span>
-                    <span className="text-xs font-mono text-text-tertiary">{item.progress}%</span>
-                  </div>
-                  <div className="w-full bg-tertiary rounded-full h-1.5">
-                    <div
-                      className="bg-dark-pink h-1.5 rounded-full transition-all duration-700"
-                      style={{ width: `${item.progress}%` }}
-                    />
-                  </div>
+            <h2 className="text-3xl font-bold mb-12 text-center">Selected Research & Experience</h2>
+            
+            <div className="space-y-12">
+              {/* Project 1: SkinAid */}
+              <div className="relative pl-8 border-l-2 border-accent/30">
+                {/* Decorative Dot */}
+                <div className="absolute -left-[9px] top-0 w-4 h-4 rounded-full bg-accent" />
+                
+                <div className="flex flex-col md:flex-row md:justify-between md:items-baseline mb-4">
+                  <h3 className="text-xl font-bold text-text">Data Science Lead – SkinAid Project</h3>
+                  <span className="text-sm font-medium italic text-text-tertiary">IMCAS World Congress, Paris | 2025</span>
                 </div>
-              ))}
+                <ul className="space-y-3 text-text-secondary text-base leading-relaxed">
+                  <li className="flex gap-2">
+                    <span>•</span>
+                    <span>Developed NLP pipelines (sentiment analysis, topic modelling) to extract patient insights from digital conversations around chronic dermatological conditions, directly applicable to clinical programme evaluation.</span>
+                  </li>
+                  <li className="flex gap-2">
+                    <span>•</span>
+                    <span>Presented findings at IMCAS World Congress 2025: <em>Demand Forecasting for Dermatology Clinics: Enhancing Resource Allocation with Predictive Models.</em></span>
+                  </li>
+                </ul>
+              </div>
+
+              {/* Project 2: Genomic Data */}
+              <div className="relative pl-8 border-l-2 border-accent/30">
+                <div className="absolute -left-[9px] top-0 w-4 h-4 rounded-full bg-accent" />
+                
+                <div className="flex flex-col md:flex-row md:justify-between md:items-baseline mb-4">
+                  <h3 className="text-xl font-bold text-text">Genomic Data Researcher</h3>
+                  <span className="text-sm font-medium italic text-text-tertiary">Collaborative Research, Vancouver | 2024</span>
+                </div>
+                <ul className="space-y-3 text-text-secondary text-base leading-relaxed">
+                  <li className="flex gap-2">
+                    <span>•</span>
+                    <span>Analysed biomedical genomic datasets using statistical modelling and bioinformatics algorithms to identify genetic patterns and clinical markers.</span>
+                  </li>
+                </ul>
+              </div>
+
+              {/* Project 3: Generative AI */}
+              <div className="relative pl-8 border-l-2 border-accent/30">
+                <div className="absolute -left-[9px] top-0 w-4 h-4 rounded-full bg-accent" />
+                
+                <div className="flex flex-col md:flex-row md:justify-between md:items-baseline mb-4">
+                  <h3 className="text-xl font-bold text-text">Generative AI Researcher</h3>
+                  <span className="text-sm font-medium italic text-text-tertiary">Marsham Edge, Singapore | 2024</span>
+                </div>
+                <ul className="space-y-3 text-text-secondary text-base leading-relaxed">
+                  <li className="flex gap-2">
+                    <span>•</span>
+                    <span>Developed a prototype generative AI tool for AI maturity assessment in the megaprojects domain, leveraging LLM and RAG-based architectures—methods transferable to clinical decision support systems.</span>
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
         </section>
