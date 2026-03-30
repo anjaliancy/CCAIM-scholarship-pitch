@@ -81,6 +81,37 @@ export default function Home() {
             </div>
           </div>
         </section>
+{/* Why This Program / Narrative Section */}
+        <section className="py-20 px-6 bg-secondary/30 border-y border-border">
+          <div className="max-w-2xl mx-auto text-center">
+            <h2 className="text-3xl font-bold mb-10 text-text italic">The Path to This Moment</h2>
+            
+            <div className="space-y-6 text-lg leading-relaxed text-text-secondary font-serif">
+              <p>
+                I have always known that my education was the means to step up, contribute, and add value. 
+                With this in mind, I previously sought master's programmes in the UK, drawn to how the 
+                region approaches the nuances of combining data expertise with human experience. 
+                However, financial challenges precluded me from taking those steps at the time.
+              </p>
+              
+              <p className="font-bold text-text">
+                This opportunity comes at the perfect time.
+              </p>
+              
+              <p>
+                I am no longer simply an aspirant; I am an ambitious graduate who understands that 
+                targeted learning and meaningful conversation are the true catalysts for impact. 
+                I am eager to immerse myself in this program, knowing that it will enable me to 
+                bring a far stronger level of value to the clinical projects I facilitate.
+              </p>
+            </div>
+
+            {/* Decorative Plum Divider */}
+            <div className="mt-10 flex justify-center">
+              <div className="w-24 h-px bg-accent/40" />
+            </div>
+          </div>
+        </section>
 
 {/* Professional Experience Section */}
         <section id="work" className="py-20 px-6 border-b border-border">
