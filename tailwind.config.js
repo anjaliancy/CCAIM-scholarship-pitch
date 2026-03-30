@@ -7,28 +7,25 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        display: ['Georgia', 'serif'],
-        body: ['system-ui', 'sans-serif'],
+        sans: ['-apple-system', 'BlinkMacSystemFont', '"Segoe UI"', 'Roboto', '"Helvetica Neue"', 'Arial', 'sans-serif'],
       },
       colors: {
-        navy: '#0f172a',
-        slate: '#64748b',
-        cream: '#faf8f3',
-        accent: '#0ea5e9',
-        success: '#10b981',
+        primary: '#ffffff',
+        secondary: '#f5f5f5',
+        tertiary: '#efefef',
+        text: '#000000',
+        'text-secondary': '#565656',
+        'text-tertiary': '#9b9b9b',
+        border: '#d1d5db',
+        accent: '#1f1f1f',
       },
       animation: {
-        'fade-in': 'fadeIn 0.6s ease-out forwards',
-        'slide-up': 'slideUp 0.6s ease-out forwards',
+        'fade-in': 'fadeIn 0.3s ease-out forwards',
       },
       keyframes: {
         fadeIn: {
           '0%': { opacity: '0' },
           '100%': { opacity: '1' },
-        },
-        slideUp: {
-          '0%': { opacity: '0', transform: 'translateY(20px)' },
-          '100%': { opacity: '1', transform: 'translateY(0)' },
         },
       },
     },
