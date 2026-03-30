@@ -7,8 +7,9 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        // Moved Helvetica to the front of the stack
-        sans: ['Helvetica', 'Arial', '-apple-system', 'BlinkMacSystemFont', '"Segoe UI"', 'Roboto', 'sans-serif'],
+        // Replace 'sans' with 'serif' or just update the sans stack if you want it everywhere
+        serif: ['EB Garamond', 'Garamond', 'Georgia', 'serif'],
+        sans: ['Helvetica', 'Arial', 'sans-serif'], // Keep this for UI elements like buttons
       },
       colors: {
         // Backgrounds: Cream/Beige
