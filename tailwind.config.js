@@ -7,17 +7,22 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['-apple-system', 'BlinkMacSystemFont', '"Segoe UI"', 'Roboto', '"Helvetica Neue"', 'Arial', 'sans-serif'],
+        // Moved Helvetica to the front of the stack
+        sans: ['Helvetica', 'Arial', '-apple-system', 'BlinkMacSystemFont', '"Segoe UI"', 'Roboto', 'sans-serif'],
       },
       colors: {
-        primary: '#ffffff',
-        secondary: '#f5f5f5',
-        tertiary: '#efefef',
-        text: '#000000',
-        'text-secondary': '#565656',
-        'text-tertiary': '#9b9b9b',
-        border: '#d1d5db',
-        accent: '#1f1f1f',
+        // Backgrounds: Cream/Beige
+        primary: '#F5F5DC',      // Classic Cream
+        secondary: '#F2E8CF',    // Slightly deeper beige for contrast
+        tertiary: '#EAD7BB',     // Accent beige
+        
+        // Typography & Accents: Plum/Dark Pink
+        text: '#4A0E2E',           // Deep Plum for readability
+        'text-secondary': '#833857', // Muted Plum/Dark Pink
+        'text-tertiary': '#AC4B74',  // Dark Pink
+        
+        border: '#D4A5B7',       // Soft Dusty Pink for borders
+        accent: '#673147',       // Strong Plum for buttons/important UI
       },
       animation: {
         'fade-in': 'fadeIn 0.3s ease-out forwards',
