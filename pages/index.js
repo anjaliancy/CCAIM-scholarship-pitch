@@ -130,7 +130,7 @@ export default function Home() {
 
               {/* Option 2: Tuition Reduction */}
               <div className="p-6 bg-white/40 border border-plum/10 rounded-xl shadow-sm flex flex-col">
-                <div className="w-10 h-10 bg-dark-pink text-white rounded-full flex items-center justify-center mb-4 font-bold">2</div>
+                <div className="w-10 h-10 bg-accent text-white rounded-full flex items-center justify-center mb-4 font-bold">2</div>
                 <h3 className="text-lg font-bold mb-3 text-text">Tuition Reduction</h3>
                 <p className="text-text-secondary text-sm leading-relaxed flex-grow">
                   A partial scholarship where I can contribute back through program-related work, such as research assistance or community building.
@@ -139,7 +139,7 @@ export default function Home() {
 
               {/* Option 3: Creative Options */}
               <div className="p-6 bg-white/40 border border-plum/10 rounded-xl shadow-sm flex flex-col">
-                <div className="w-10 h-10 bg-text-tertiary text-white rounded-full flex items-center justify-center mb-4 font-bold">3</div>
+                <div className="w-10 h-10 bg-accent text-white rounded-full flex items-center justify-center mb-4 font-bold">3</div>
                 <h3 className="text-lg font-bold mb-3 text-text">Creative Options</h3>
                 <p className="text-text-secondary text-sm leading-relaxed flex-grow">
                   I am open to hybrid arrangements, installment plans, or other creative structures you might propose to ensure a mutual fit.
